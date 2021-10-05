@@ -152,7 +152,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="❰ 𝗚𝗿𝗼𝘂𝗽 😎❤️🤟 ❱",
-                        url="https://t.me/ABHI_NETWORK")
+                        url="https://t.me/ABHI_NETWORK"),
                     InlineKeyboardButton(
                         text="💫𝚃𝙰𝙻𝙺 𝚃𝙾 𝙾𝚆𝙽𝙴𝚁✨",
                         url="http://t.me/SNEHU_IS_MINE")
