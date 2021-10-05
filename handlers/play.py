@@ -214,7 +214,7 @@ async def play(_, message: Message):
                             url="https://t.me/ABHI_NETWORK"),
                             InlineKeyboardButton(
                             text="💫𝚃𝙰𝙻𝙺 𝚃𝙾 𝙾𝚆𝙽𝙴𝚁✨",
-                            url="http://t.me/SNEHU_IS_MINE"
+                            url="http://t.me/SNEHU_IS_MINE")
                                 
                         ]
                     ]
