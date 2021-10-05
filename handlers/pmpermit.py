@@ -6,5 +6,5 @@ from config import BOT_USERNAME
 
 @USER.on_message(filters.text & filters.private & ~filters.me & ~filters.bot)
 async def pmPermit(client: USER, message: Message):
-  await USER.send_message(message.chat.id,"RUKO ZARA SABAR KARO YAHA SPAM NA KARO JALDI JAO @ABHI_NETWORK 👈👈YAHA CLICK KARKE JOIN HO JAO WAHA BAT KARENGE
+  await USER.send_message(message.chat.id,"RUKO ZARA SABAR KARO YAHA SPAM NA KARO JALDI JAO @ABHI_NETWORK 👈👈YAHA CLICK KARKEE
   return
