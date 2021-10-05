@@ -254,7 +254,7 @@ async def play(_, message: Message):
                 
         except Exception as e:
             await lel.edit(
-                "🌸Beta jao song ka nam acche se dekh kar ao.. aisa koi song nahi ha merepass 👀"."
+                "🌸Beta jao song ka nam acche se dekh kar ao.. aisa koi song nahi ha merepass 👀."
             )
             print(str(e))
             return
