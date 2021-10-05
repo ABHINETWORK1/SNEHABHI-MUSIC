@@ -47,7 +47,7 @@ async def start(_, message: Message):
                         "❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱", url="https://t.me/ABHI_NETWORK1"
                     ),
                     InlineKeyboardButton(
-                        "❰𝗚𝗿𝗼𝘂𝗽❱", url="https://t.me/ABHI_NETWORL"
+                        "❰𝗚𝗿𝗼𝘂𝗽❱", url="https://t.me/ABHI_NETWORK"
                     )
                 ],[ 
                     InlineKeyboardButton(
