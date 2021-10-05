@@ -137,7 +137,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❰𝗩𝗶𝗱𝗲𝗼 🧿❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞"
+                f"SNEHABHI SERVER {DURATION_LIMIT} MINUTES SE JYADA LAMBA SONG PLAY KARNE KE LIYE ALLOW NAHI KARTA HAI ❤️🤞"
             )
 
         file_name = get_file_name(audio)
@@ -153,7 +153,10 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                         text="❰ 𝗚𝗿𝗼𝘂𝗽 😎❤️🤟 ❱",
                         url="https://t.me/ABHI_NETWORK")
-                   
+                    InlineKeyboardButton(
+                        text="💫𝚃𝙰𝙻𝙺 𝚃𝙾 𝙾𝚆𝙽𝙴𝚁✨",
+                        url="http://t.me/SNEHU_IS_MINE")
+                    
                 ]
             ]
         )
@@ -191,7 +194,9 @@ async def play(_, message: Message):
                         InlineKeyboardButton(
                             text="❰ 𝗚𝗿𝗼𝘂𝗽 😎❤️🤟 ❱",
                             url="https://t.me/ABHI_NETWORK"),
-                        
+                        InlineKeyboardButton(
+                            text="💫𝚃𝙰𝙻𝙺 𝚃𝙾 𝙾𝚆𝙽𝙴𝚁✨",
+                            url="http://t.me/SNEHU_IS_MINE")
 
                     ]
                 ]
@@ -207,7 +212,10 @@ async def play(_, message: Message):
                             InlineKeyboardButton(
                             text="❰ 𝗚𝗿𝗼𝘂𝗽 😎❤️🤟 ❱",
                             url="https://t.me/ABHI_NETWORK"),
-
+                            InlineKeyboardButton(
+                            text="💫𝚃𝙰𝙻𝙺 𝚃𝙾 𝙾𝚆𝙽𝙴𝚁✨",
+                            url="http://t.me/SNEHU_IS_MINE"
+                                
                         ]
                     ]
                 )
@@ -258,7 +266,10 @@ async def play(_, message: Message):
                         InlineKeyboardButton(
                             text="❰ 𝗚𝗿𝗼𝘂𝗽 😎❤️🤟 ❱",
                             url="https://t.me/ABHI_NETWORK"),
-
+                        InlineKeyboardButton(
+                        text="💫𝚃𝙰𝙻𝙺 𝚃𝙾 𝙾𝚆𝙽𝙴𝚁✨",
+                        url="http://t.me/SNEHU_IS_MINE")
+                        
                     ]
                 ]
             )
