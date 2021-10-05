@@ -29,7 +29,6 @@
     "SUDO_USERS": {
       "description": "List of user IDs counted as admin everywhere (separated by space).",
       "required": true
-     
     },
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
